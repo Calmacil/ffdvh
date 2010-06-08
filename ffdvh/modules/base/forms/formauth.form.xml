@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+
+
+<input ref="login" required="true" maxlength="50">
+	<label>Login :</label>
+</input>
+
+<input ref="nickname" required="true" maxlength="50">
+	<label>Pseudonyme :</label>
+</input>
+
+<input ref="pwd" required="true" maxlength="50">
+	<label>Mot de passe :</label>
+</input>
+
+<input ref="pwd2" required="true" maxlength="50">
+	<label>Mot de passe (répéter):</label>
+</input>
+
+<input ref="loc" required="false" maxlength="255">
+	<label>Localisation :</label>
+</input>
+
+<input ref="email" required="true" maxlength="255">
+	<label>Adresse courriel :</label>
+</input>
+
+<submit ref="_submit">
+	<label>S'inscrire</label>
+</submit>
+</form>

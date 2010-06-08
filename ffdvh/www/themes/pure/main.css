@@ -1,0 +1,103 @@
+/*
+    Designor: Calmacil
+    Style: Pure
+    Site: FFDVH
+    File: main
+*/
+
+body {
+    background-color: #e8e8bb;
+}
+
+#all {
+    width: 1024px;
+    margin: auto;
+}
+
+#head {
+    background-color: white;
+    height: 80px;
+    width: 960px;
+}
+
+
+#main {
+    height: 600px;
+    background-color: white;
+    width: 700px;
+    float: left;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#foot {
+	text-align:center;
+	height:40px;
+	-moz-border-radius: 30px;
+	width:940px;
+	background-color:#ddf;
+	float:left;
+	padding:10px;
+	margin-top:20px;
+}
+
+.bleft {
+	margin: 10px;
+	padding: 10px;
+	width: 420px;
+	float: left;
+}
+
+.sright {
+	float: left;
+	border-left: solid black 1px;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.sleft {
+	margin: 10px;
+	padding: 10px;
+	width: 260px;
+	float: left;
+}
+
+.bright {
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 25px;
+	border-left: solid black 1px;
+}
+
+.cadre {
+	width: 660px;
+	margin: 10px;
+	padding: 10px;
+	border: solid #dbb 1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.cadrevert {
+	width: 660px;
+	margin: 10px;
+	padding: 10px;
+	border: solid #090 1px;
+	background-color: #7f7;
+	color: #O9O;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.cadrerouge {
+	width: 660px;
+	margin: 10px;
+	padding: 10px;
+	border: solid #900 1px;
+	background-color: #f77;
+	color: #90O;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
